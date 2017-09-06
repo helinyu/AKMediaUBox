@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		415DDE311F60457F00F43738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DDE301F60457F00F43738 /* AppDelegate.m */; };
+		415DDE341F60457F00F43738 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DDE331F60457F00F43738 /* ViewController.m */; };
+		415DDE371F60457F00F43738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415DDE351F60457F00F43738 /* Main.storyboard */; };
+		415DDE3A1F60457F00F43738 /* AKMediaUBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 415DDE381F60457F00F43738 /* AKMediaUBox.xcdatamodeld */; };
+		415DDE3C1F60457F00F43738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415DDE3B1F60457F00F43738 /* Assets.xcassets */; };
+		415DDE3F1F60457F00F43738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415DDE3D1F60457F00F43738 /* LaunchScreen.storyboard */; };
+		415DDE421F60457F00F43738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DDE411F60457F00F43738 /* main.m */; };
+		415DDE4C1F60457F00F43738 /* AKMediaUBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DDE4B1F60457F00F43738 /* AKMediaUBoxTests.m */; };
+		415DDE571F60457F00F43738 /* AKMediaUBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DDE561F60457F00F43738 /* AKMediaUBoxUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		415DDE481F60457F00F43738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415DDE241F60457F00F43738 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 415DDE2B1F60457F00F43738;
+			remoteInfo = AKMediaUBox;
+		};
+		415DDE531F60457F00F43738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415DDE241F60457F00F43738 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 415DDE2B1F60457F00F43738;
+			remoteInfo = AKMediaUBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		415DDE2C1F60457F00F43738 /* AKMediaUBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKMediaUBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		415DDE2F1F60457F00F43738 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		415DDE301F60457F00F43738 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		415DDE321F60457F00F43738 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		415DDE331F60457F00F43738 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		415DDE361F60457F00F43738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		415DDE391F60457F00F43738 /* AKMediaUBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AKMediaUBox.xcdatamodel; sourceTree = "<group>"; };
+		415DDE3B1F60457F00F43738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		415DDE3E1F60457F00F43738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		415DDE401F60457F00F43738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		415DDE411F60457F00F43738 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		415DDE471F60457F00F43738 /* AKMediaUBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKMediaUBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		415DDE4B1F60457F00F43738 /* AKMediaUBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKMediaUBoxTests.m; sourceTree = "<group>"; };
+		415DDE4D1F60457F00F43738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		415DDE521F60457F00F43738 /* AKMediaUBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKMediaUBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		415DDE561F60457F00F43738 /* AKMediaUBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKMediaUBoxUITests.m; sourceTree = "<group>"; };
+		415DDE581F60457F00F43738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		415DDE291F60457F00F43738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415DDE441F60457F00F43738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415DDE4F1F60457F00F43738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415DDE231F60457F00F43738 = {
+			isa = PBXGroup;
+			children = (
+				415DDE2E1F60457F00F43738 /* AKMediaUBox */,
+				415DDE4A1F60457F00F43738 /* AKMediaUBoxTests */,
+				415DDE551F60457F00F43738 /* AKMediaUBoxUITests */,
+				415DDE2D1F60457F00F43738 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		415DDE2D1F60457F00F43738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415DDE2C1F60457F00F43738 /* AKMediaUBox.app */,
+				415DDE471F60457F00F43738 /* AKMediaUBoxTests.xctest */,
+				415DDE521F60457F00F43738 /* AKMediaUBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		415DDE2E1F60457F00F43738 /* AKMediaUBox */ = {
+			isa = PBXGroup;
+			children = (
+				415DDE2F1F60457F00F43738 /* AppDelegate.h */,
+				415DDE301F60457F00F43738 /* AppDelegate.m */,
+				415DDE321F60457F00F43738 /* ViewController.h */,
+				415DDE331F60457F00F43738 /* ViewController.m */,
+				415DDE351F60457F00F43738 /* Main.storyboard */,
+				415DDE3B1F60457F00F43738 /* Assets.xcassets */,
+				415DDE3D1F60457F00F43738 /* LaunchScreen.storyboard */,
+				415DDE401F60457F00F43738 /* Info.plist */,
+				415DDE411F60457F00F43738 /* main.m */,
+				415DDE381F60457F00F43738 /* AKMediaUBox.xcdatamodeld */,
+			);
+			path = AKMediaUBox;
+			sourceTree = "<group>";
+		};
+		415DDE4A1F60457F00F43738 /* AKMediaUBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				415DDE4B1F60457F00F43738 /* AKMediaUBoxTests.m */,
+				415DDE4D1F60457F00F43738 /* Info.plist */,
+			);
+			path = AKMediaUBoxTests;
+			sourceTree = "<group>";
+		};
+		415DDE551F60457F00F43738 /* AKMediaUBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				415DDE561F60457F00F43738 /* AKMediaUBoxUITests.m */,
+				415DDE581F60457F00F43738 /* Info.plist */,
+			);
+			path = AKMediaUBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		415DDE2B1F60457F00F43738 /* AKMediaUBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415DDE5B1F60457F00F43738 /* Build configuration list for PBXNativeTarget "AKMediaUBox" */;
+			buildPhases = (
+				415DDE281F60457F00F43738 /* Sources */,
+				415DDE291F60457F00F43738 /* Frameworks */,
+				415DDE2A1F60457F00F43738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKMediaUBox;
+			productName = AKMediaUBox;
+			productReference = 415DDE2C1F60457F00F43738 /* AKMediaUBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		415DDE461F60457F00F43738 /* AKMediaUBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415DDE5E1F60457F00F43738 /* Build configuration list for PBXNativeTarget "AKMediaUBoxTests" */;
+			buildPhases = (
+				415DDE431F60457F00F43738 /* Sources */,
+				415DDE441F60457F00F43738 /* Frameworks */,
+				415DDE451F60457F00F43738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				415DDE491F60457F00F43738 /* PBXTargetDependency */,
+			);
+			name = AKMediaUBoxTests;
+			productName = AKMediaUBoxTests;
+			productReference = 415DDE471F60457F00F43738 /* AKMediaUBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		415DDE511F60457F00F43738 /* AKMediaUBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415DDE611F60457F00F43738 /* Build configuration list for PBXNativeTarget "AKMediaUBoxUITests" */;
+			buildPhases = (
+				415DDE4E1F60457F00F43738 /* Sources */,
+				415DDE4F1F60457F00F43738 /* Frameworks */,
+				415DDE501F60457F00F43738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				415DDE541F60457F00F43738 /* PBXTargetDependency */,
+			);
+			name = AKMediaUBoxUITests;
+			productName = AKMediaUBoxUITests;
+			productReference = 415DDE521F60457F00F43738 /* AKMediaUBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		415DDE241F60457F00F43738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Aka;
+				TargetAttributes = {
+					415DDE2B1F60457F00F43738 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					415DDE461F60457F00F43738 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 415DDE2B1F60457F00F43738;
+					};
+					415DDE511F60457F00F43738 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 415DDE2B1F60457F00F43738;
+					};
+				};
+			};
+			buildConfigurationList = 415DDE271F60457F00F43738 /* Build configuration list for PBXProject "AKMediaUBox" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 415DDE231F60457F00F43738;
+			productRefGroup = 415DDE2D1F60457F00F43738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				415DDE2B1F60457F00F43738 /* AKMediaUBox */,
+				415DDE461F60457F00F43738 /* AKMediaUBoxTests */,
+				415DDE511F60457F00F43738 /* AKMediaUBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		415DDE2A1F60457F00F43738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415DDE3F1F60457F00F43738 /* LaunchScreen.storyboard in Resources */,
+				415DDE3C1F60457F00F43738 /* Assets.xcassets in Resources */,
+				415DDE371F60457F00F43738 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415DDE451F60457F00F43738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415DDE501F60457F00F43738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		415DDE281F60457F00F43738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415DDE3A1F60457F00F43738 /* AKMediaUBox.xcdatamodeld in Sources */,
+				415DDE341F60457F00F43738 /* ViewController.m in Sources */,
+				415DDE421F60457F00F43738 /* main.m in Sources */,
+				415DDE311F60457F00F43738 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415DDE431F60457F00F43738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415DDE4C1F60457F00F43738 /* AKMediaUBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415DDE4E1F60457F00F43738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415DDE571F60457F00F43738 /* AKMediaUBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		415DDE491F60457F00F43738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 415DDE2B1F60457F00F43738 /* AKMediaUBox */;
+			targetProxy = 415DDE481F60457F00F43738 /* PBXContainerItemProxy */;
+		};
+		415DDE541F60457F00F43738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 415DDE2B1F60457F00F43738 /* AKMediaUBox */;
+			targetProxy = 415DDE531F60457F00F43738 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		415DDE351F60457F00F43738 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415DDE361F60457F00F43738 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		415DDE3D1F60457F00F43738 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415DDE3E1F60457F00F43738 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		415DDE591F60457F00F43738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		415DDE5A1F60457F00F43738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		415DDE5C1F60457F00F43738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2XBEJ6876;
+				INFOPLIST_FILE = AKMediaUBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sport.yuedong.AKMediaUBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		415DDE5D1F60457F00F43738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2XBEJ6876;
+				INFOPLIST_FILE = AKMediaUBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sport.yuedong.AKMediaUBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		415DDE5F1F60457F00F43738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2XBEJ6876;
+				INFOPLIST_FILE = AKMediaUBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sport.yuedong.AKMediaUBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKMediaUBox.app/AKMediaUBox";
+			};
+			name = Debug;
+		};
+		415DDE601F60457F00F43738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2XBEJ6876;
+				INFOPLIST_FILE = AKMediaUBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sport.yuedong.AKMediaUBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKMediaUBox.app/AKMediaUBox";
+			};
+			name = Release;
+		};
+		415DDE621F60457F00F43738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2XBEJ6876;
+				INFOPLIST_FILE = AKMediaUBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sport.yuedong.AKMediaUBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AKMediaUBox;
+			};
+			name = Debug;
+		};
+		415DDE631F60457F00F43738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2XBEJ6876;
+				INFOPLIST_FILE = AKMediaUBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sport.yuedong.AKMediaUBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AKMediaUBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		415DDE271F60457F00F43738 /* Build configuration list for PBXProject "AKMediaUBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415DDE591F60457F00F43738 /* Debug */,
+				415DDE5A1F60457F00F43738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415DDE5B1F60457F00F43738 /* Build configuration list for PBXNativeTarget "AKMediaUBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415DDE5C1F60457F00F43738 /* Debug */,
+				415DDE5D1F60457F00F43738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415DDE5E1F60457F00F43738 /* Build configuration list for PBXNativeTarget "AKMediaUBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415DDE5F1F60457F00F43738 /* Debug */,
+				415DDE601F60457F00F43738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415DDE611F60457F00F43738 /* Build configuration list for PBXNativeTarget "AKMediaUBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415DDE621F60457F00F43738 /* Debug */,
+				415DDE631F60457F00F43738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		415DDE381F60457F00F43738 /* AKMediaUBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				415DDE391F60457F00F43738 /* AKMediaUBox.xcdatamodel */,
+			);
+			currentVersion = 415DDE391F60457F00F43738 /* AKMediaUBox.xcdatamodel */;
+			path = AKMediaUBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 415DDE241F60457F00F43738 /* Project object */;
+}
