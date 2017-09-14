@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24C6E6FCAC511676433BCB25 /* libPods-AKMediaUBoxUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD22E1CDB04F21250CA3F7D /* libPods-AKMediaUBoxUITests.a */; };
 		415DDE311F60457F00F43738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DDE301F60457F00F43738 /* AppDelegate.m */; };
 		415DDE341F60457F00F43738 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DDE331F60457F00F43738 /* ViewController.m */; };
 		415DDE371F60457F00F43738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415DDE351F60457F00F43738 /* Main.storyboard */; };
@@ -16,6 +17,10 @@
 		415DDE421F60457F00F43738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DDE411F60457F00F43738 /* main.m */; };
 		415DDE4C1F60457F00F43738 /* AKMediaUBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DDE4B1F60457F00F43738 /* AKMediaUBoxTests.m */; };
 		415DDE571F60457F00F43738 /* AKMediaUBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DDE561F60457F00F43738 /* AKMediaUBoxUITests.m */; };
+		41A255611F6AADA1007013B8 /* YDTestSoundEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A255601F6AADA1007013B8 /* YDTestSoundEffectViewController.m */; };
+		41A255631F6AB110007013B8 /* 9152.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41A255621F6AAEC0007013B8 /* 9152.wav */; };
+		60310E4F487A10ABAB3B6CF2 /* libPods-AKMediaUBoxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EEF7F2E3D8A36AE5F01C036 /* libPods-AKMediaUBoxTests.a */; };
+		CAF7223843C6E9C308138CCA /* libPods-AKMediaUBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AA86C9B173D640F191CFC4 /* libPods-AKMediaUBox.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03034EE6054D61FEAFBAEE26 /* Pods-AKMediaUBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKMediaUBoxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKMediaUBoxUITests/Pods-AKMediaUBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C73ED6CEC191AE29C60594A /* Pods-AKMediaUBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKMediaUBoxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKMediaUBoxTests/Pods-AKMediaUBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EEF7F2E3D8A36AE5F01C036 /* libPods-AKMediaUBoxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKMediaUBoxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		415DDE2C1F60457F00F43738 /* AKMediaUBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKMediaUBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		415DDE2F1F60457F00F43738 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		415DDE301F60457F00F43738 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +61,15 @@
 		415DDE521F60457F00F43738 /* AKMediaUBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKMediaUBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		415DDE561F60457F00F43738 /* AKMediaUBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKMediaUBoxUITests.m; sourceTree = "<group>"; };
 		415DDE581F60457F00F43738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A2555F1F6AADA1007013B8 /* YDTestSoundEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTestSoundEffectViewController.h; sourceTree = "<group>"; };
+		41A255601F6AADA1007013B8 /* YDTestSoundEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTestSoundEffectViewController.m; sourceTree = "<group>"; };
+		41A255621F6AAEC0007013B8 /* 9152.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 9152.wav; sourceTree = "<group>"; };
+		79070CF1B29D373CE3F1A4C7 /* Pods-AKMediaUBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKMediaUBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKMediaUBox/Pods-AKMediaUBox.release.xcconfig"; sourceTree = "<group>"; };
+		AAD22E1CDB04F21250CA3F7D /* libPods-AKMediaUBoxUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKMediaUBoxUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5D05243075A8CE1938EC79 /* Pods-AKMediaUBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKMediaUBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKMediaUBox/Pods-AKMediaUBox.debug.xcconfig"; sourceTree = "<group>"; };
+		C7A836E6A4CAEE869172EC9B /* Pods-AKMediaUBoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKMediaUBoxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKMediaUBoxUITests/Pods-AKMediaUBoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C7AA86C9B173D640F191CFC4 /* libPods-AKMediaUBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKMediaUBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DF3BF1A0501DA6D1B54E04 /* Pods-AKMediaUBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKMediaUBoxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKMediaUBoxTests/Pods-AKMediaUBoxTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF7223843C6E9C308138CCA /* libPods-AKMediaUBox.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60310E4F487A10ABAB3B6CF2 /* libPods-AKMediaUBoxTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C6E6FCAC511676433BCB25 /* libPods-AKMediaUBoxUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +107,8 @@
 				415DDE4A1F60457F00F43738 /* AKMediaUBoxTests */,
 				415DDE551F60457F00F43738 /* AKMediaUBoxUITests */,
 				415DDE2D1F60457F00F43738 /* Products */,
+				6B71E386CCC8C688632FA79D /* Pods */,
+				A35C782B87BF34900346C5F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +125,7 @@
 		415DDE2E1F60457F00F43738 /* AKMediaUBox */ = {
 			isa = PBXGroup;
 			children = (
+				41A2555E1F6AAD93007013B8 /* TestsoundEffect */,
 				415DDE2F1F60457F00F43738 /* AppDelegate.h */,
 				415DDE301F60457F00F43738 /* AppDelegate.m */,
 				415DDE321F60457F00F43738 /* ViewController.h */,
@@ -135,6 +158,39 @@
 			path = AKMediaUBoxUITests;
 			sourceTree = "<group>";
 		};
+		41A2555E1F6AAD93007013B8 /* TestsoundEffect */ = {
+			isa = PBXGroup;
+			children = (
+				41A2555F1F6AADA1007013B8 /* YDTestSoundEffectViewController.h */,
+				41A255601F6AADA1007013B8 /* YDTestSoundEffectViewController.m */,
+				41A255621F6AAEC0007013B8 /* 9152.wav */,
+			);
+			path = TestsoundEffect;
+			sourceTree = "<group>";
+		};
+		6B71E386CCC8C688632FA79D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB5D05243075A8CE1938EC79 /* Pods-AKMediaUBox.debug.xcconfig */,
+				79070CF1B29D373CE3F1A4C7 /* Pods-AKMediaUBox.release.xcconfig */,
+				2C73ED6CEC191AE29C60594A /* Pods-AKMediaUBoxTests.debug.xcconfig */,
+				D7DF3BF1A0501DA6D1B54E04 /* Pods-AKMediaUBoxTests.release.xcconfig */,
+				03034EE6054D61FEAFBAEE26 /* Pods-AKMediaUBoxUITests.debug.xcconfig */,
+				C7A836E6A4CAEE869172EC9B /* Pods-AKMediaUBoxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A35C782B87BF34900346C5F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7AA86C9B173D640F191CFC4 /* libPods-AKMediaUBox.a */,
+				2EEF7F2E3D8A36AE5F01C036 /* libPods-AKMediaUBoxTests.a */,
+				AAD22E1CDB04F21250CA3F7D /* libPods-AKMediaUBoxUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 415DDE5B1F60457F00F43738 /* Build configuration list for PBXNativeTarget "AKMediaUBox" */;
 			buildPhases = (
+				610547B45BB8E50B2C0BA253 /* [CP] Check Pods Manifest.lock */,
 				415DDE281F60457F00F43738 /* Sources */,
 				415DDE291F60457F00F43738 /* Frameworks */,
 				415DDE2A1F60457F00F43738 /* Resources */,
+				9ADFD8A3C744F87CBC0ABC04 /* [CP] Embed Pods Frameworks */,
+				C59AA0E0137D6A8C921A0884 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 415DDE5E1F60457F00F43738 /* Build configuration list for PBXNativeTarget "AKMediaUBoxTests" */;
 			buildPhases = (
+				5DEA02516EA8045A64769487 /* [CP] Check Pods Manifest.lock */,
 				415DDE431F60457F00F43738 /* Sources */,
 				415DDE441F60457F00F43738 /* Frameworks */,
 				415DDE451F60457F00F43738 /* Resources */,
+				63D7DE1FA476B2B904CDE3A3 /* [CP] Embed Pods Frameworks */,
+				4A7D8F1DC866E1E725AD8506 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 415DDE611F60457F00F43738 /* Build configuration list for PBXNativeTarget "AKMediaUBoxUITests" */;
 			buildPhases = (
+				42C960AA79E016FB7CAB936B /* [CP] Check Pods Manifest.lock */,
 				415DDE4E1F60457F00F43738 /* Sources */,
 				415DDE4F1F60457F00F43738 /* Frameworks */,
 				415DDE501F60457F00F43738 /* Resources */,
+				C92842C8D0C37585AA99F6D4 /* [CP] Embed Pods Frameworks */,
+				8F4D478A8535CEC6B3512968 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,7 +267,7 @@
 				TargetAttributes = {
 					415DDE2B1F60457F00F43738 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					415DDE461F60457F00F43738 = {
 						CreatedOnToolsVersion = 9.0;
@@ -241,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41A255631F6AB110007013B8 /* 9152.wav in Resources */,
 				415DDE3F1F60457F00F43738 /* LaunchScreen.storyboard in Resources */,
 				415DDE3C1F60457F00F43738 /* Assets.xcassets in Resources */,
 				415DDE371F60457F00F43738 /* Main.storyboard in Resources */,
@@ -263,6 +329,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42C960AA79E016FB7CAB936B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A7D8F1DC866E1E725AD8506 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKMediaUBoxTests/Pods-AKMediaUBoxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DEA02516EA8045A64769487 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		610547B45BB8E50B2C0BA253 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63D7DE1FA476B2B904CDE3A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKMediaUBoxTests/Pods-AKMediaUBoxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F4D478A8535CEC6B3512968 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKMediaUBoxUITests/Pods-AKMediaUBoxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADFD8A3C744F87CBC0ABC04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKMediaUBox/Pods-AKMediaUBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59AA0E0137D6A8C921A0884 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKMediaUBox/Pods-AKMediaUBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C92842C8D0C37585AA99F6D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKMediaUBoxUITests/Pods-AKMediaUBoxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		415DDE281F60457F00F43738 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,6 +476,7 @@
 				415DDE341F60457F00F43738 /* ViewController.m in Sources */,
 				415DDE421F60457F00F43738 /* main.m in Sources */,
 				415DDE311F60457F00F43738 /* AppDelegate.m in Sources */,
+				41A255611F6AADA1007013B8 /* YDTestSoundEffectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,34 +637,42 @@
 		};
 		415DDE5C1F60457F00F43738 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5D05243075A8CE1938EC79 /* Pods-AKMediaUBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D2XBEJ6876;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2ERYNAFK87;
 				INFOPLIST_FILE = AKMediaUBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sport.yuedong.AKMediaUBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sport.yuedong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5a931646-0f99-495f-b9dc-f7f4d7b9bb34";
+				PROVISIONING_PROFILE_SPECIFIER = dev_sp;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		415DDE5D1F60457F00F43738 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79070CF1B29D373CE3F1A4C7 /* Pods-AKMediaUBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D2XBEJ6876;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AKMediaUBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sport.yuedong.AKMediaUBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sport.yuedong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		415DDE5F1F60457F00F43738 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C73ED6CEC191AE29C60594A /* Pods-AKMediaUBoxTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +688,7 @@
 		};
 		415DDE601F60457F00F43738 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DF3BF1A0501DA6D1B54E04 /* Pods-AKMediaUBoxTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +704,7 @@
 		};
 		415DDE621F60457F00F43738 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03034EE6054D61FEAFBAEE26 /* Pods-AKMediaUBoxUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2XBEJ6876;
@@ -504,6 +719,7 @@
 		};
 		415DDE631F60457F00F43738 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A836E6A4CAEE869172EC9B /* Pods-AKMediaUBoxUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2XBEJ6876;
