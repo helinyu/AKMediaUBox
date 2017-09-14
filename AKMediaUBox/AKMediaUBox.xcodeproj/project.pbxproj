@@ -19,6 +19,8 @@
 		415DDE571F60457F00F43738 /* AKMediaUBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DDE561F60457F00F43738 /* AKMediaUBoxUITests.m */; };
 		41A255611F6AADA1007013B8 /* YDTestSoundEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A255601F6AADA1007013B8 /* YDTestSoundEffectViewController.m */; };
 		41A255631F6AB110007013B8 /* 9152.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41A255621F6AAEC0007013B8 /* 9152.wav */; };
+		41A255681F6AB35D007013B8 /* AKSegmentAudioMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A255671F6AB35D007013B8 /* AKSegmentAudioMgr.m */; };
+		41A2556C1F6AB3C5007013B8 /* AkMgrService.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A2556B1F6AB3C5007013B8 /* AkMgrService.m */; };
 		60310E4F487A10ABAB3B6CF2 /* libPods-AKMediaUBoxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EEF7F2E3D8A36AE5F01C036 /* libPods-AKMediaUBoxTests.a */; };
 		CAF7223843C6E9C308138CCA /* libPods-AKMediaUBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AA86C9B173D640F191CFC4 /* libPods-AKMediaUBox.a */; };
 /* End PBXBuildFile section */
@@ -64,6 +66,10 @@
 		41A2555F1F6AADA1007013B8 /* YDTestSoundEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTestSoundEffectViewController.h; sourceTree = "<group>"; };
 		41A255601F6AADA1007013B8 /* YDTestSoundEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTestSoundEffectViewController.m; sourceTree = "<group>"; };
 		41A255621F6AAEC0007013B8 /* 9152.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 9152.wav; sourceTree = "<group>"; };
+		41A255661F6AB35D007013B8 /* AKSegmentAudioMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKSegmentAudioMgr.h; sourceTree = "<group>"; };
+		41A255671F6AB35D007013B8 /* AKSegmentAudioMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKSegmentAudioMgr.m; sourceTree = "<group>"; };
+		41A2556A1F6AB3C5007013B8 /* AkMgrService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AkMgrService.h; sourceTree = "<group>"; };
+		41A2556B1F6AB3C5007013B8 /* AkMgrService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AkMgrService.m; sourceTree = "<group>"; };
 		79070CF1B29D373CE3F1A4C7 /* Pods-AKMediaUBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKMediaUBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKMediaUBox/Pods-AKMediaUBox.release.xcconfig"; sourceTree = "<group>"; };
 		AAD22E1CDB04F21250CA3F7D /* libPods-AKMediaUBoxUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKMediaUBoxUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5D05243075A8CE1938EC79 /* Pods-AKMediaUBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKMediaUBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKMediaUBox/Pods-AKMediaUBox.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +131,8 @@
 		415DDE2E1F60457F00F43738 /* AKMediaUBox */ = {
 			isa = PBXGroup;
 			children = (
+				41A255691F6AB390007013B8 /* AKMgrService */,
+				41A255641F6AB322007013B8 /* Sound */,
 				41A2555E1F6AAD93007013B8 /* TestsoundEffect */,
 				415DDE2F1F60457F00F43738 /* AppDelegate.h */,
 				415DDE301F60457F00F43738 /* AppDelegate.m */,
@@ -166,6 +174,33 @@
 				41A255621F6AAEC0007013B8 /* 9152.wav */,
 			);
 			path = TestsoundEffect;
+			sourceTree = "<group>";
+		};
+		41A255641F6AB322007013B8 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				41A255651F6AB350007013B8 /* AKSegmentAudioMgr */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		41A255651F6AB350007013B8 /* AKSegmentAudioMgr */ = {
+			isa = PBXGroup;
+			children = (
+				41A255661F6AB35D007013B8 /* AKSegmentAudioMgr.h */,
+				41A255671F6AB35D007013B8 /* AKSegmentAudioMgr.m */,
+			);
+			name = AKSegmentAudioMgr;
+			path = AKMediaUBox/TestsoundEffect/AKSegmentAudioMgr;
+			sourceTree = SOURCE_ROOT;
+		};
+		41A255691F6AB390007013B8 /* AKMgrService */ = {
+			isa = PBXGroup;
+			children = (
+				41A2556A1F6AB3C5007013B8 /* AkMgrService.h */,
+				41A2556B1F6AB3C5007013B8 /* AkMgrService.m */,
+			);
+			path = AKMgrService;
 			sourceTree = "<group>";
 		};
 		6B71E386CCC8C688632FA79D /* Pods */ = {
@@ -473,7 +508,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				415DDE3A1F60457F00F43738 /* AKMediaUBox.xcdatamodeld in Sources */,
+				41A255681F6AB35D007013B8 /* AKSegmentAudioMgr.m in Sources */,
 				415DDE341F60457F00F43738 /* ViewController.m in Sources */,
+				41A2556C1F6AB3C5007013B8 /* AkMgrService.m in Sources */,
 				415DDE421F60457F00F43738 /* main.m in Sources */,
 				415DDE311F60457F00F43738 /* AppDelegate.m in Sources */,
 				41A255611F6AADA1007013B8 /* YDTestSoundEffectViewController.m in Sources */,
