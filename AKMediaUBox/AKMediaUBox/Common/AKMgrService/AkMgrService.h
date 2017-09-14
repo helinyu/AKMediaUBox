@@ -18,5 +18,6 @@
 @end
 
 #import "AKSegmentAudioMgr.h"
+#import "AKAudioMgr.h"
 
 

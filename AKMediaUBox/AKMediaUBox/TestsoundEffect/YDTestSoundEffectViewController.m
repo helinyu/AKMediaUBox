@@ -9,6 +9,7 @@
 #import "YDTestSoundEffectViewController.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import "AkMgrService.h"
+//#import "AKSegmentAudioMgr.h"
 
 @interface YDTestSoundEffectViewController ()
 
@@ -31,7 +32,7 @@
     [self playSoundEffect:@"9152.wav"];
 }
 
-//test may be remove 
+//test may be remove
 -(void)playSoundEffect:(NSString *)name{
     NSString *audioFile=[[NSBundle mainBundle] pathForResource:name ofType:nil];
     NSURL *fileUrl=[NSURL fileURLWithPath:audioFile];
